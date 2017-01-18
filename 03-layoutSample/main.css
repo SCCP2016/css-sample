@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+header {
+    height: 50px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.contents {
+    display: flex;
+    min-height: 80vh;
+    height: 100%;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    font-size: 15pt;
+}
+
+article {
+    display: flex;
+    flex: 5;
+}
+
+section {
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+footer {
+    height: 100px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
